@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency renders correctly 1`] = `
+Array [
+  <label>
+    Currency:
+  </label>,
+  <select
+    onChange={[Function]}
+    value="EURUSD"
+  >
+    <option
+      value="EURUSD"
+    >
+      EURUSD
+    </option>
+    <option
+      value="EURJPY"
+    >
+      EURJPY
+    </option>
+    <option
+      value="AUDUSD"
+    >
+      AUDUSD
+    </option>
+    <option
+      value="GBPUSD"
+    >
+      GBPUSD
+    </option>
+  </select>,
+  <br />,
+]
+`;

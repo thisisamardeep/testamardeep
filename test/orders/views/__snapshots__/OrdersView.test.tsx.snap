@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrdersView renders correctly 1`] = `
+<div>
+  <h1>
+    OrdersList
+  </h1>
+  <p>
+    <label>
+      Amount:
+    </label>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="10m"
+    />
+  </p>
+  <label>
+    Currency:
+  </label>
+  <select
+    onChange={[Function]}
+    value="EURJPY"
+  >
+    <option
+      value="EURUSD"
+    >
+      EURUSD
+    </option>
+    <option
+      value="EURJPY"
+    >
+      EURJPY
+    </option>
+    <option
+      value="AUDUSD"
+    >
+      AUDUSD
+    </option>
+    <option
+      value="GBPUSD"
+    >
+      GBPUSD
+    </option>
+  </select>
+  <br />
+  <p>
+    Order summary:
+  </p>
+  <p>
+    Amount(
+    10m
+    )
+  </p>
+  <p>
+    <button
+      onClick={[Function]}
+    >
+      Book
+    </button>
+  </p>
+  <h2 />
+  <div />
+</div>
+`;
